@@ -1,0 +1,83 @@
+* {
+  color: white;
+}
+
+body {
+  background-image: url("../img/sunset-04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  height: 200vh;
+}
+
+header {
+  height: 10vh;
+  width: 100vw;
+  background-color: #235556;
+  margin: 0%;
+  margin-bottom: 50px;
+}
+
+#main {
+  background-color: #2f79a1;
+  height: 150vh;
+  width: 60vw;
+  border: 2px solid black;
+  margin: 3vh auto;
+  top: 20vh;
+  padding-left: 5vw;
+}
+
+#profile {
+  display: inline-block;
+  width: 20vw;
+  border: 10px solid black;
+  top: 5vh;
+}
+
+#bio {
+  display: inline-block;
+  position: absolute;
+  border: 3px solid black;
+  width: 20vw;
+  height: 15vh;
+  margin: 10px;
+  padding: 3vh 1vw 0vh 1vw;
+  top: 26vh;
+  right: 30vw;
+}
+
+.table {
+  padding: 20px;
+}
+
+table {
+  border: 4px outset #c8e6ee;
+  border-collapse: collapse;
+  width: 18vw;
+}
+
+#header-row {
+  font-weight: bold;
+}
+
+td,
+tr {
+  border: 3px outset #c8e6ee;
+  border-collapse: collapse;
+}
+
+.gallery-picture {
+  width: 12vw;
+  border: 2px solid black;
+}
+
+form {
+  text-align: center;
+}
+
+#submit {
+  color: black;
+  width: 10vw;
+  margin: auto:
+}
