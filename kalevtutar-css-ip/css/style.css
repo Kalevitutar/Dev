@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+}
+
+#main-box {
+  width: 508px;
+  height: 700px;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-boxes {
+  width: 100px;
+  height: 80px;
+  border: 2px solid red;
+  margin: 40px;
+  z-index: 2;
+}
