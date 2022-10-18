@@ -1,0 +1,59 @@
+h2 {
+  margin: 0%;
+}
+
+.picture {
+  height: 14%;
+  width: 95%;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 90%;
+  position: relative;
+  top: 15%;
+  left: 5%;
+  border-top: 15px solid black;
+}
+
+.picture-text {
+  color: white;
+  width: 70%;
+  font-size: small;
+  padding-bottom: 5%;
+  margin: 0% 25%;
+  margin-left: 90px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  img {
+    width: 60%;
+    left: 17%;
+  }
+  .picture-text {
+    font-size: medium;
+    margin-left: 250px;
+  }
+}
+/* Laptop */
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #cbf9cc;
+    width: 90%;
+    margin: 5% auto;
+  }
+  .picture {
+    width: 30%;
+    display: inline-block;
+    margin-right: 3%;
+  }
+  img {
+    width: 90%;
+    left: 5%;
+  }
+  .picture-text {
+    margin-left: 55px;
+  }
+}
