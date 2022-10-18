@@ -1,0 +1,199 @@
+h1 {
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+/************* OUR PROFILE NAVBAR ************/
+
+p {
+  margin-top: 0px;
+}
+
+.profilenavbar {
+  color: white;
+  margin-bottom: 20px;
+  position: relative;
+}
+.profilenavbar span {
+  color: black;
+  margin: 50px;
+}
+
+.ourprofile-navlink {
+  text-decoration: none !important;
+  text-align: center;
+  color: black;
+}
+
+.ourprofile-navlink.current {
+  border-bottom: 3px solid #007db3;
+  width: 10%;
+}
+
+.edit-button {
+  /* position: absolute;
+  right: 10%;
+  top: 18%; */
+  margin-top: -10px;
+  margin-left: 40px;
+}
+
+.edit-button-edit {
+  position: absolute;
+  right: 10%;
+  top: 18%;
+  color: lightgrey;
+}
+
+.edit-button-edit figcaption {
+  color: #8f98a3;
+}
+
+.previewbutton {
+  margin-top: 2.5%;
+  position: absolute;
+  right: 30%;
+}
+
+.cancelbutton {
+  margin-top: 55%;
+}
+/************* OUR PROFILE/BASICS ************/
+.basicsform,
+.basic-edit-form {
+  width: 55vw;
+  display: flex;
+  /* //makes a new column starts with ages served */
+  justify-content: space-between;
+}
+.basicsform-non-edit,
+.basic-non-edit-form {
+  width: 55vw;
+  display: flex;
+  /* //makes a new column starts with ages served */
+  justify-content: space-between;
+}
+
+.basicsform input {
+  width: 100%;
+}
+
+.inputfield {
+  width: 10.42vw;
+}
+
+.errorp {
+  color: #a10070;
+}
+
+.errorp::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+textarea,
+input {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 8px 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input {
+  width: 255px;
+}
+
+.phonebasics {
+  border-color: black;
+}
+
+.disablecheck {
+  color: black;
+  font-size: 1em;
+}
+
+/* Details form */
+.detailsform {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailseditform {
+  width: 60vw;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Nonpublic form */
+.nonpublicform {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nonpubliceditform {
+  width: 50vw;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/************* OUR PROFILE/BASICS ************/
+.pdetails {
+  width: 800px;
+}
+
+.url-css {
+  word-wrap: break-word;
+  width: 400px;
+}
+
+.MuiCheckbox-colorPrimary.Mui-disabled.Mui-checked {
+  color: #a10070 !important;
+}
+
+.MuiFormControlLabel-root {
+  height: 30px;
+}
+
+.labelbold span.MuiTypography-body1 {
+  color: black !important;
+}
+
+.label-basics {
+  margin-bottom: 20px;
+}
+
+.blog-left {
+  cursor: pointer;
+  width: 35px;
+  height: 20px;
+  border-radius: 2px;
+  border: 3px solid black;
+  background-color: lightgrey;
+}
+
+.blog-right {
+  cursor: pointer;
+  width: 35px;
+  height: 20px;
+  border-radius: 2px;
+  border: 3px solid black;
+  background-color: gray;
+}
+/************* OUR PROFILE/NONPUBLIC ************/
+/* .Pnonpublic {
+  width: 800px;
+} */
+
+/* FONTSTYLES */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
