@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Exercise</title>
+</head>
+
+<body>
+
+  <form action=# method=post>
+      <table>
+          <tr>
+            <td>Username:</td>
+            <td><input type="text" name="username"/></td>  
+          </tr>
+
+        <tr>
+        <td>Password:</td>
+        <td><input type="password" name="password" /></td>
+        </tr>
+
+        <tr>
+        <td>City of <br/> Employment:</td>
+        <td><input type="text" name="city" /></td>
+        </tr>
+
+        <tr>
+        <td>Web server:</td>
+        <td><select name="server">
+          <option value="choose">--Choose a server--</option>
+          <option value="application">Application server</option>
+          <option value="client">Client server</option>
+          <option value="collabortion">Collaboration server</option>
+          <option value="ftp">FTP server</option>
+          <option value="list">List server</option>
+          <option value="mail">Mail server</option>
+          <option value="opensource">Open Source server</option>
+          <option value="proxy">Proxy server</option>
+          <option value="realtimecommunication">Real-time Communication server</option>
+          <option value="platform">Server platforms</option>
+          <option value="telnet">Telnet server</option>
+          <option value="virtual">Virtual server</option>
+          <option value="web">Web server</option>
+        </select></td>
+        </tr>
+
+        <tr>
+        <td>Please specify <br/> your role:</td>
+        <td><input type="radio" name="role" value="admin" />Admin
+        <br/>
+        <input type="radio" name="role" value="engineer" />Engineer
+        <br />
+        <input type="radio" name="role" value="manager" />Manager
+        <br />
+        <input type="radio" name="role" value="guest" />Guest</td>
+        <br />
+        </tr>
+
+        <tr>
+        <td>Single Sign-on <br/> to the following:</td>
+        <td><input type="checkbox" name="signon" value="mail" />Mail
+        <br/>
+        <input type="checkbox" name="signon" value="payroll" />Payroll
+        <br />
+        <input type="checkbox" name="signon" value="selfservice" />Self-service</td>
+        <br />
+        </tr>
+        
+        <tr>
+          <td></td>
+          <td><input type="submit" name="login" value="Login" />
+        <input type="submit" name="reset" value="Reset" /></td>
+        </tr>
+      </table>
+    </form>
+</body>
+</html>
