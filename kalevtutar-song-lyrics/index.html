@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Find Song Lyrics</title>
+</head>
+<body>
+    <h1>Find your song lyrics here!  Any artist you want, as long as it's Coldplay!</h1>
+    
+    <form>
+        <h2>Please enter the name of the artist</h2>
+        <label for="artist">Artist:</label><br>
+        <input type="text" id="artist" name="artist"><br>
+        <h2>Please enter the name of the song</h2>
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title"><br>
+        <input type="submit" value="Submit" id = "submit">
+    </form>
+
+    <div id = "lyrics"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
