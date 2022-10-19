@@ -1,0 +1,36 @@
+.header {
+  color: #d4cb92;
+  font-size: 700;
+  background-color: rgba(57, 92, 107, 1);
+  text-align: center;
+  padding: 10px;
+}
+
+.header-top {
+  margin-top: 0;
+  text-align: start;
+  color: #d4cb92;
+}
+
+.logo {
+  color: rgba(212, 203, 146, 1);
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.navbar-movies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-button {
+  background-color: transparent;
+  color: #d4cb92;
+  box-shadow: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+}
