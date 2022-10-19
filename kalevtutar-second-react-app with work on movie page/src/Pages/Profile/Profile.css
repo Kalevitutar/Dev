@@ -1,0 +1,260 @@
+.profile,
+.create-profile-heading {
+  text-align: start;
+}
+
+.profile {
+  flex: 1 0 auto;
+}
+
+.avatar-input {
+  opacity: 0;
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 100%;
+}
+
+.edit-avatar-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.add-profile-pic {
+  padding-left: 1rem;
+}
+
+.fieldset {
+  border: none;
+}
+
+.entry-form-name,
+.country-input,
+.region-input-div,
+.about-input-div,
+.add-movie-div,
+.watching-div {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.country-input,
+.region-input-div,
+.about-input-div,
+.add-movie-div {
+  width: 89vw;
+}
+
+.add-another-movie-button {
+  background-color: transparent;
+  color: #395c6b;
+  box-shadow: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+}
+
+.movie-add-section {
+  background: #ffffff;
+  border: 1px solid black;
+  margin-bottom: 2em;
+}
+
+.display-div {
+  width: 90vw;
+  background-color: white;
+  border: 2px, solid, black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 2em;
+  text-align: left;
+}
+
+.country-region-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-div-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.delete-div img {
+  display: flex !important;
+  height: 1.5em;
+}
+
+.profile-save-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.profile-save-button {
+  background-color: #395c6b;
+  color: #d4cb92;
+  box-shadow: none;
+  border-radius: 2rem;
+  padding: 0.5rem 3rem;
+  border: 1px solid #395c6b;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Display version */
+.avatar-and-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.user-name {
+  margin-left: 2rem;
+  color: #395c6b;
+  font-weight: bold;
+}
+
+.user-display-info {
+  padding: 1rem;
+}
+
+.my-movies {
+  display: inline-block;
+}
+
+.my-movies text {
+  padding: 1rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.display-div {
+  padding: 1rem;
+  border: 1px solid black;
+  width: 89%;
+}
+
+.display-div-movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profile-edit-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.profile-edit-button {
+  background-color: #395c6b;
+  color: #d4cb92;
+  box-shadow: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #395c6b;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* tablets */
+
+/* display version */
+@media screen and (min-width: 768px) {
+  .user-display-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .display-div {
+    width: 75%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .profile-edit-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1rem;
+  }
+
+  /* edit version */
+
+  .profile-form {
+    margin-left: 1rem;
+  }
+
+  .profile-person {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .form-left,
+  .form-right {
+    width: 42%;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2em;
+    text-align: left;
+  }
+
+  .form-right {
+    margin-bottom: 2rem;
+  }
+
+  .entry-form-name,
+  .country-input,
+  .region-input-div,
+  .about-input-div {
+    width: 90%;
+  }
+
+  .movie-add-section,
+  .add-movie-div,
+  .delete-div-wrapper {
+    width: 100%;
+  }
+
+  .profile-save-button-wrapper {
+    width: 93%;
+  }
+}
+
+/* larger versions */
+@media screen and (min-width: 1024px) {
+  .profile-edit-button-wrapper {
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .profile-edit-button-wrapper {
+    padding-right: 5rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .profile-edit-button-wrapper {
+    padding-right: 8rem;
+  }
+}

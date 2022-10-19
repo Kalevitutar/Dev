@@ -1,0 +1,47 @@
+.App {
+  background-color: #e6e1c5;
+}
+
+.movies {
+  flex: 1;
+}
+
+.card {
+  padding: 1rem;
+}
+
+.poster {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.movieCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* tablets */
+@media screen and (min-width: 768px) {
+  .movieCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4em;
+    padding: 1rem;
+    align-self: start;
+  }
+  .card {
+    align-self: start;
+  }
+}
+
+/* small desktop and up */
+@media screen and (min-width: 1200px) {
+  .movieCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4em;
+    padding: 1rem;
+    align-self: start;
+  }
+}
