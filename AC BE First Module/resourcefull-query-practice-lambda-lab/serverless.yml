@@ -1,0 +1,38 @@
+service: ${self:custom.secrets.SERVICE}
+
+# Create an optimized package for our functions
+package:
+  individually: true
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+custom:
+  serverless-offline:
+    noPrependStageInUrl: true
+  secrets: ${file(secrets.json)}
+
+provider:
+  name: aws
+  logs:
+    restApi: true
+  runtime: nodejs16.x
+  stage: staging
+  environment:
+    #postgresql
+    POSTGRESQL_HOST: ${self:custom.secrets.MOCK_HOST}
+    POSTGRESQL_PORT: ${self:custom.secrets.MOCK_PORT}
+    DB_NAME: ${self:custom.secrets.MOCK_DB_NAME}
+    MOCK_USER: ${self:custom.secrets.MOCK_USER}
+    MOCK_PASSWORD: ${self:custom.secrets.MOCK_PASSWORD}
+
+functions:
+  # ADMIN
+  getReportsData:
+    handler: src/Reports/getReportsData.handler
+    events:
+      - http:
+          path: /getreportsdata
+          method: post
+          cors: true

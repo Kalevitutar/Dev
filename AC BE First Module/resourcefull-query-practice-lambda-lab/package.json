@@ -1,0 +1,26 @@
+{
+  "name": "provider_participant_intake",
+  "version": "1.0.0",
+  "description": "Seed the provider_participant_intake table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-db": "psql -U postgres < mockschema.sql",
+    "seed": "yarn create-db && yarn fill-db",
+    "fill-db": "psql -U postgres < src/mockfill.sql"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "dotenv": "^16.3.1",
+    "minimist": "^1.2.8",
+    "pg": "^8.11.3",
+    "serverless": "^3.38.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-bundle": "^6.1.0",
+    "serverless-offline": "^13.3.2"
+  }
+}
