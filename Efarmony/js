@@ -1,0 +1,64 @@
+// ###Animal User Model
+
+// This object will be the model of a single animal user.
+
+//Step 1: Create a variable, name it animal, and assign it an object literal.
+
+//Step 2: With Dot Notation, add a property called username and assign it a value. Ensure that your username property exists in animal by inspecting it in the console.
+
+//Step 3: With Bracket Notation, add a property called tagline and give it a value. Check that your property exists in the animal object by inspecting it in the console.
+
+//Step 4: Create a variable called noises and assign it an empty array[]. Add the noises array to your object. Inspect your handiwork! Your object should look something like this:
+// {
+//     username: 'DaffyDuck',
+//     tagline: 'Yippeee!',
+//     noises: []
+// }
+
+//Step 5: Loop through the properties of your animal object. Count everytime it loops to keep track of the number of properties on your object. Write an if/else statement in your loop: If the key is username, console.log('Hi my name is ' + ___) //fill in with object's username value. If the key is tagline, console.log('I like to say ' + ___) //fill in with object's tagline value.
+
+//Step 6: Write a constructor function, AnimalCreator that creates a new animal object.The constructor function has 4 parameters: username, species, tagline, and noises. Noises should be an array. Each object should also have a friends key. Friends should always be an empty array to start. (They haven't added any friends yet!)
+
+//Step 7: Create your first animal!
+
+//Step 8: Make another animal!! Yay! So fun!
+
+//Step 9: Write a function, addFriend that takes an animal object(like the one returned from the AnimalCreator function) and adds another animal object as it's friend. Your animal should now look like this.
+
+// { username: 'Cloud',
+//  species: 'sheep',
+//  tagline: 'You can count on me!',
+//  noises: ['baahhh', 'arrgg', 'chewchewchew'],
+//  friends: [{username: 'Moo Girl', species: 'cow', tagline: "Yaaaaas Moooo", noises: ["moooo", "sup", "hay girl"]}]
+// }
+
+//Step 10: Change your addFriend function to only add the username of the friend, not the whole object.
+
+// { username: 'Cloud',
+//  species: 'sheep',
+//  tagline: 'You can count on me!',
+//  noises: ['baahhh', 'arrgg', 'chewchewchew'],
+//  friends: ['Moo Girl']
+// }
+
+//Step 11: Create a myFarm collection of at least 3 animal objects. Give them some friends using addFriend, too!
+
+//Step 12: Create a function, addMatchesArray, that takes a farm(array of animal objects) and adds a new property to each animal object called matches that is an empty array. Hint: you will need a loop.
+
+// { username: 'Cloud',
+//  species: 'sheep',
+//  tagline: 'You can count on me!',
+//  noises: ['baahhh', 'arrgg', 'chewchewchew'],
+//  friends: ['Moo', 'Zeny'],
+//  matches: []
+// }
+
+//Step 13: Create a function, giveMatches, that takes a farm collection(aka an array of animal objects) that already has a matches property.It selects a name from the friends array and adds it to the matches array.You can choose how the selection is made(random, the first element, etc).Make sure all your animal objects have friends.
+
+// { username: 'Cloud',
+//  species: 'sheep',
+//  tagline: 'You can count on me!',
+//  noises: ['baahhh', 'arrgg', 'chewchewchew'],
+//  friends: ['Moo Girl', 'Zeny'],
+//  matches: ['Zeny']
+// }

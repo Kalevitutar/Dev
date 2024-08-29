@@ -1,0 +1,105 @@
+.link-instructions {
+  color: black;
+}
+
+p.client-data {
+  width: 90%;
+}
+
+/* .last-row-help {
+  display: flex;
+} */
+
+/* SETTINGS */
+.MuiInputBase-root {
+  min-width: 255px !important;
+  border: black !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: none !important;
+}
+
+.settings-style {
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.settings-style-email {
+  margin-right: 86px;
+  cursor: not-allowed;
+}
+
+.MuiInputBase-input:hover {
+  pointer-events: none !important;
+}
+
+#root
+  > div
+  > div
+  > div:nth-child(2)
+  > div.edit-settings
+  > form
+  > div:nth-child(5)
+  > div
+  > input {
+  cursor: not-allowed !important;
+}
+
+.border-setting .MuiDivider-root {
+  width: 500px !important;
+}
+
+.settings-header {
+  margin-bottom: 100px;
+}
+
+.cancel-helpform {
+  margin-top: 3%;
+}
+
+.edit-settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-settings .MuiInput-root {
+  border: 1px solid grey !important;
+  border-radius: 5px;
+  border-bottom: none !important;
+}
+
+.save-helpform-button {
+  width: 100px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: #a10070;
+}
+
+.save-helpform-disabled {
+  width: 100px;
+  height: 40px;
+  color: grey;
+  cursor: not-allowed;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: lightgrey;
+}
+
+.cancel-button {
+  width: 100px;
+  height: 40px;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: black;
+}
+

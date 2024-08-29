@@ -1,0 +1,97 @@
+body {
+  background-image: url("../images/Marvel-background-image.jpeg");
+  background-size: contain;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+form {
+  background-color: aliceblue;
+}
+
+.images {
+  padding: 200px, 200px, 200px, 200px;
+  text-align: center;
+}
+
+.flex-container {
+  text-align: left;
+  color: rgb(86, 40, 146);
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cards {
+  padding: 5px;
+  border: 2px solid rgb(61, 47, 255);
+  display: flex;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+@media only screen and (min-width: 280px) {
+  .flex-container {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .flex-container {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .box-description {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .flex-container {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .box-description {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .cards {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cards {
+    width: 24%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cards {
+    width: 20%;
+  }
+}

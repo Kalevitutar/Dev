@@ -1,0 +1,18 @@
+body {
+  background-color: #e6e1c5;
+  text-align: center;
+  font-family: "Sulphur Point";
+}
+
+.app {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.blue:hover {
+  color: #bcd3f2;
+}
+
+@media screen and (min-width: 768px) {
+}

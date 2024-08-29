@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Exercise</title>
+</head>
+<body>
+    <h1>Fort Tryon Park</h1>
+    <h2>Fort Tryon is a beautiful and historic park located at the north end of Manhattan island.</h2>
+    <br/>
+
+    <div>
+        <form action="#" method="post">
+            <label for="interest">What interests do you have?</label>
+            <input type="checkbox" name="interest" value="history"><a href="#history">History</a>
+            <input type="checkbox" name="interest" value="art"><a href="#art">Art</a>
+            <input type="checkbox" name="interest" value="scenery"><a href="#scenery">Scenery</a>
+            <input type="checkbox" name="interest" value="events"><a href="#events">Events</a>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <label for="season">What is your favorite time of year?</label>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col"><input type="radio" name="season" id="winter" value="winter" />Winter</th>
+                        <th scope="col"><input type="radio" name="season" id="spring" value="spring" />Spring</th>
+                        <th scope="col"><input type="radio" name="season" id="summer" value="summer" />Summer</th>
+                        <th scope="col"><input type="radio" name="season" id="fall" value="fall" />Fall</tr>
+                    </tr>
+                    <tr>
+                        <td><img src="images/Winter.jpeg" height="200" alt="Fort Tryon Park in Winter"></td>
+                        <td><img src="images/Spring.jpeg" height="200" alt="Fort Tryon Park in Spring"></td>
+                        <td><img src="images/Summer.jpeg" height="200" alt="Fort Tryon Park in Summer"></td>
+                        <td><img src="images/Fall.jpeg" height="200" alt="Fort Tryon Park in Fall"></td>
+                    </tr>
+                </thead>
+            </table>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <label for="date">When are you hoping to visit Fort Tryon Park?</label>
+            <input type="date" />
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <label for="travel">There are many ways to reach the park - which one(s) would you prefer?</label>
+            <select name="travel">
+                <option value="foot">On Foot</option>
+                <option value="subway">Subway</option>
+                <option value="bus">Bus</option>
+                <option value="car">Car</option>
+            </select>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <label for="info"></label>
+            <textarea name="info" cols="20" rows="5" placeholder="Write any request for more information here"></textarea>
+            <br/>
+            <input type="submit">
+
+        </form>
+    </div>
+    <br/>
+    <br/>
+
+    <div id="history">
+        <h2>History in Fort Tryon Park</h2>
+        <figure> 
+            <img src="images/2015_Fort_Tryon_Park_Margaret_Corbin_memorial.jpeg" height="450" alt="Historical marker in Fort Tryon Park" title="Historical marker in Fort Tryon Park">
+            <figcaption>Historical marker in Fort Tryon Park</figcaption>
+        </figure>
+    <br/>
+    <br/>
+    <br/>
+    </div>
+
+    <div id="art">
+        <h2>Art in Fort Tryon Park</h2>
+        <figure>
+            <img src="images/Unicorn.jpeg" height="450"
+                alt="One of the famous medieval Unicorn Tapestries in the Cloisters Museum" title="One of the famous medieval Unicorn Tapestries in the Cloisters Museum">
+            <figcaption>One of the famous medieval Unicorn Tapestries in the Cloisters Museum</figcaption>
+        </figure>
+        <br />
+        <br />
+        <br />
+    </div>
+
+    <div id="scenery">
+        <h2>Scenery in Fort Tryon Park</h2>
+        <br/>
+        <figure>
+        <img src="images/Fort_Tryon_Park_Oct_2019_28.jpeg" height="450" alt="Heather Garden in Fort Tryon Park"
+            title="Heather Garden in Fort Tryon Park">
+        <figcaption>Heather Garden in Fort Tryon Park</figcaption>
+        </figure>
+        <br/>
+        <br/>
+        <br/>
+        <figure>
+            <img src="images/Fort Tryon Park Winter.jpeg" height="450" alt="Fort Tryon Park in Winter"
+                title="Fort Tryon Park in Winter">
+            <figcaption>Fort Tryon Park in Winter</figcaption>
+        </figure>
+        <br/>
+        <br/>
+        <br/>
+        <figure>
+            <img src="images/Cloisters.jpeg" height="450" alt="Cloisters Museum of medieval art in Fort Tryon Park"
+                title="Cloisters Museum of medieval art in Fort Tryon Park">
+            <figcaption>Cloisters Museum of medieval art in Fort Tryon Park</figcaption>
+        </figure>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+    <div id="events">
+        <h2>Events in Fort Tryon Park</h2>
+        <figure>
+            <a href="https://www.therenlist.com/fairs/medieval-festival-at-fort-tryon-park"> <img src="images/Medieval Festival.jpeg" height="450" alt="Annual Medieval Festival"
+                title="Annual Medieval Festival"></a>
+            <figcaption>Annual Medieval Festival</figcaption>
+        </figure>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+    <h2>How to get here</h2>
+    <br/>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.4243480280657!2d-73.93348818451508!3d40.8625607793157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f401707c9d4d%3A0x40cca6ce47d577d4!2sFort%20Tryon%20Park!5e0!3m2!1sen!2sus!4v1625177684281!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</body>
+</html>

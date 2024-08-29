@@ -1,0 +1,58 @@
+body {
+  background-image: linear-gradient(#c0c0c0, #bfbfbf);
+}
+
+header {
+  background-color: #418107;
+  width: 98vw;
+  height: 25vh;
+  margin: 2vh auto;
+}
+
+aside {
+  background-color: #264afb;
+  width: 20vw;
+  height: 53vh;
+  margin-left: 0.5vw;
+}
+
+#main {
+  background-color: #e93f33;
+  width: 77.5vw;
+  height: 69vh;
+  display: inline-block;
+  position: absolute;
+  top: 29vh;
+  right: 1vw;
+  z-index: 1;
+}
+
+.gallery {
+  background-color: #fdf731;
+  width: 23.5vw;
+  height: 23.5vw;
+  top: 1vh;
+  position: absolute;
+  z-index: 2;
+}
+
+#first {
+  right: 53vw;
+}
+
+#second {
+  right: 27vw;
+}
+
+#third {
+  right: 1vw;
+}
+
+#text {
+  background-color: #822f80;
+  position: absolute;
+  width: 73.5vw;
+  height: 15vh;
+  top: 44vh;
+  right: 2vw;
+}

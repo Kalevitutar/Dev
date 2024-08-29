@@ -1,0 +1,37 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+#logo {
+  width: 300px;
+  height: 75px;
+  background-color: #f4bfcc;
+  font-family: "Kaushan Script", cursive, sans-serif;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+  line-height: 75px;
+  font: white, italic;
+}
+
+#teal {
+  color: #5abcae;
+}
+
+.purple {
+  color: #cb4dc8;
+}
+
+table,
+tr,
+td {
+  border-style: double;
+  padding: 1px;
+  border: 1px solid white;
+}
+
+table {
+  margin-bottom: 20px;
+}

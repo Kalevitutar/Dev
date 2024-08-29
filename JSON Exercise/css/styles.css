@@ -1,0 +1,45 @@
+body {
+  background-color: blueviolet;
+}
+
+#cards {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.all-pictures {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 15vw;
+}
+
+.info-card {
+  font: bold;
+  color: white;
+  font-size: large;
+  font-family: "Roboto", sans-serif;
+  height: 20vh;
+  width: 15vw;
+  margin-top: -5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#info1 {
+  background-color: #c8493a;
+}
+
+#info2 {
+  background-color: #ae346c;
+}
+
+#info3 {
+  background-color: #bc3b4d;
+}
+
+#info4 {
+  background-color: #cc4154;
+}
